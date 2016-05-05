@@ -17,7 +17,8 @@ namespace CI.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            Product mdlproduct = new Product();
+           
+           
             return View(db.Customers.ToList());
         }
 
